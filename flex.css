@@ -1,0 +1,50 @@
+.containerflex {
+    display: flex;                  /*Kích hoạt flexbox*/
+    flex-direction: column;            /*Thiết lập hướng chính*/              /*Thiết lập chế độ wrap, khi các phần tử vượt qua kích thước hướng chính*/
+}
+.flexitem {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    margin: 2px;
+    background-color: darkolivegreen;
+    text-align: end;
+    
+}
+.one {
+    flex-grow: 1;
+   
+}
+.two {
+    flex-grow: 2;
+}
+.three {
+    flex-grow: 3;
+}
+.six {
+    flex-grow: 6;
+}
+ .five {
+    flex-grow: 5;
+}
+.seven {
+    flex-grow: 7;
+}
+ .four  {
+    flex-grow: 4;
+}
+ .eight {
+    flex-grow: 8;
+} 
+.nine {
+    flex-grow: 9;
+}
+.ten {
+    flex-grow: 10;
+}
+.eleven {
+    flex-grow: 11;
+}
+.twelve {
+    flex-grow: 12;
+}
